@@ -53,7 +53,7 @@
 }
 
 .caja {
-  background-image: url(/img/fondohero.jpg);
+  background-image: url(img/fondohero.jpg);
   background-size: 100vh 100vh;
 }
 .caja__cajita {
