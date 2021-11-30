@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cuerpo {
+  background-color: #6B705C;
+}
+
+.header {
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.offcanvas-body {
+  visibility: visible;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  padding-left: 2rem;
+  width: 254px;
+  height: 110px;
+}
+
+.hero {
+  height: auto;
+}
+
+.caja {
+  background-image: url(/img/fondohero.jpg);
+  background-size: 100vh 100vh;
+}
+.caja__cajita {
+  padding-top: 9rem;
+  text-align: center;
+}
+.caja__text {
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  color: #DDBEA9;
+  padding-top: 7rem;
+  padding-block: 5rem;
+}
+.caja__tp {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #DDBEA9;
+}
+
+.one__caja {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  background-color: #A5A58D;
+  margin: 0;
+}
+.one__text {
+  color: #2b2d42;
+  font-size: 70px;
+}
+.one__tp {
+  font-size: 30px;
+  color: #2b2d42;
+  margin-block: 0px;
+}
+
+.two {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  padding-block: 3rem;
+  background-color: #A5A58D;
+}
+.two__t {
+  color: #2b2d42;
+  font-size: 40px;
+}
+.two__tp {
+  font-size: 20px;
+}
+
+.targetas {
+  background-color: #A5A58D;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  padding-top: 2rem;
+  padding-block: 2rem;
+}
+.targetas .caja1 {
+  width: 30%;
+  position: relative;
+  height: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.targetas .caja1__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.targetas .caja1__overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.603);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 1s ease;
+}
+.targetas .caja1__olink {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+}
+.targetas .caja1__ot {
+  color: #fff;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.targetas .caja1 .caja1__imagen:hover .caja1__overlay {
+  height: 100%;
+  cursor: pointer;
+  padding: 45px;
+}
+.targetas .caja1__button {
+  width: 150px;
+  text-align: center;
+  border-radius: 50px;
+  background: none;
+  border: 4px solid #2b2d42;
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+@media screen and (max-width: 1000px) {
+  .targetas .caja1 {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .targetas .caja1 {
+    width: 90%;
+  }
+  .targetas .caja1 .imagen {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .targetas h1 {
+    font-size: 22px;
+  }
+  .targetas .caja1 {
+    width: 98%;
+  }
+  .targetas .caja1 .imagen {
+    width: 80%;
+  }
+}
+
+.pie {
+  padding-top: 3rem;
+  background-color: #2b2d42;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #6B705C;
+  align-self: flex-end;
+}
+.pie__h {
+  font-size: 20px;
+}
+.pie__c {
+  font-size: 20px;
+}
+.pie__t {
+  font-size: 30px;
+}
+
+.menu {
+  background-color: #A5A58D;
+  padding-top: 20px;
+}
+.menu .heroM {
+  width: auto;
+  padding-top: 10rem;
+  text-align: center;
+  background-color: #A5A58D;
+  color: #2b2d42;
+}
+
+.heroM__t {
+  align-items: center;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cuerpU .heroU {
+  background-color: #6B705C;
+  padding-top: 7rem;
+}
+.cuerpU .heroU__t {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2b2d42;
+  background-color: #6B705C;
+  padding-block: 2rem;
+}
+.cuerpU .map {
+  display: block;
+  padding-block: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.cuerpU .map__t {
+  font-size: 2rem;
+  align-items: baseline;
+  font-family: "Montserrat", sans-serif;
+  color: #FFE8D6;
+  text-align: center;
+}
+
+.sobren {
+  background-color: #6B705C;
+  padding-block: 20vh;
+}
+
+.cardI {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body {
+  color: #FFE8D6;
+  font-size: 20px;
+}
+
+.mainM {
+  background-color: #A5A58D;
+}
+
+.heroM {
+  background-color: #B7B7A4;
+  padding-top: 30vh;
+  color: #2b2d42;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  font-size: 3rem;
+}
+.heroM__t {
+  font-size: 50px;
+}
+
+.heroDos {
+  width: 80%;
+  margin: auto;
+}
+
+.formulario {
+  border-radius: 15px;
+}/*# sourceMappingURL=estilos.css.map */
